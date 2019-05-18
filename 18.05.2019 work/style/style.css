@@ -1,0 +1,171 @@
+header {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+#navbar {
+    width: 100%;
+    
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px;
+}
+.logo-menu {
+    display: flex;
+}
+#navbar .menu ul {
+display: flex;
+margin-left: 30px;
+}
+#navbar .menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 19px;
+}
+#navbar .info-contact {
+    display:flex;
+}
+#navbar .info-contact a {
+ font-size: 19px;
+ color: black;
+ text-decoration: none;
+ margin-left: 10px;
+}
+#navbar .info-contact .btn a {
+background: #dc3545;
+padding: 9px 25px;
+color: white;
+border-radius: 5px;
+}
+
+#navbar .logo {
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+main{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+#getstarted{
+    width: 75%;
+    height: 1200px;
+    background: #352961;
+    border-bottom-right-radius: 260px;
+}
+#getstarted .text{
+    max-width: 445px;
+    margin: 0 auto;
+    padding-top: 41%;
+    padding-right: 20%;
+}
+#getstarted .text p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.1rem;
+    max-width: 400px;
+    padding-top: 25px;
+}
+#getstarted .text .btn a {
+    text-decoration: none;
+    padding: 15px 35px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+#getstarted .text .btn a:hover {
+  background: white;
+  color: black;
+  transition: 1.5s;
+}
+#getstarted .text .btn {
+  padding-top: 45px;
+}
+#getstarted .text h3{
+    font-size: 2.7rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.slide-img img{
+width: 540px;
+height: 578px;
+border-top-left-radius: 30%;
+position: absolute;
+top: 15%;
+left: 56%;
+}
+
+main .left-right{
+    display: flex;
+    position: absolute;
+    top:46%;
+    left: 71%;
+}
+main .left-right .left {
+    background: #dc3545;
+    padding: 15px 25px;
+    color: white;
+    }
+main .left-right .right {
+background: #dc3545;
+padding: 15px 25px;
+color: white;
+}
+#lovework .pictures img{
+    width: 540px;
+    height: 578px;
+}
+#lovework{
+    display: flex;
+    justify-content: space-between;
+    width: 78%;
+    margin: 0 auto;
+    padding-top: 10%;
+}
+
+
+#lovework .text {
+    max-width: 445px;
+    max-height: 519px;
+}
+#lovework .text h3 {
+    color: #352961;
+    font-size: 47px;
+    font-weight: bold;
+}
+#lovework .text p {
+    color: #828282;
+    font-size: 17px;
+    padding-top: 50px;
+}
+
+#lovework .text ul li {
+    color: #828282;
+    font-size: 17px;
+    padding-top: 35px;
+}
+
+#lovework .text-up{
+    width: 300px;
+    height: 355px;
+    background: #352961;
+    position: absolute;
+}
+#lovework .text-up h4 {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+#lovework .text-up p {
+    color: rgba(255, 255, 255, 0.55);
+    line-height: 1.7; 
+    font-weight: 300;
+    font-size: 1.1rem;
+}
