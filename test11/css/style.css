@@ -1,0 +1,227 @@
+body{
+    font-family: poppins,sans-serif;
+}
+
+#header .uldiv {
+    display: flex;
+}
+#header .uldiv li {
+   margin: 10px;
+   position: relative;
+   transition: all 0.5s;
+}
+
+#header .uldiv li::after {
+    content: "";
+    position: absolute;
+    top: -33px;
+    left: calc(50% - 1.5px);
+    width: 4px;
+    height: 0;
+    background: #754ef9;
+    transition: all 0.5s;
+}
+#header .uldiv li:hover::after{
+    transition: all 0.5s;
+    height: 34px;
+}
+
+#header .uldiv li:hover a {
+    color: #754ef9;
+    transition: all 0.5s;
+}
+
+
+#header .headerdiv {
+    margin-top: 2%;
+}
+
+#header .uldiv a{
+   text-decoration: none;
+   color: #8a8fa3;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+}
+#main {
+
+}
+
+#main .leftext {
+margin-top: 50%;
+}
+#main .maindiv {
+    top: calc(50% - 58px);
+}
+
+#main .maindiv .btn {
+    background: #7650f9;
+    padding: 10px 29px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 3px #888888;
+    transition: all 0.5s;
+}
+
+#main .maindiv .btn:hover {
+    background: white;
+    transition: all 0.5s;
+    border: 1px solid #7650f9;
+}
+
+#main .maindiv .btn:hover a {
+    color: #7650f9;
+    transition: all 0.5s;
+}
+#main .leftext .firstp{
+    font-size: 35px;
+    color: #754ef9;
+    font-weight: bold;
+}
+#main .leftext .icons {
+    display: flex;
+    margin-top: 25%;
+    position: relative;
+}
+#main .leftext .icons i:hover {
+    background: #754ef9;
+    color: white;
+    transition: all 0.5s;
+}
+#main .leftext .icons i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    font-size: 20px;
+    color: gray;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+#main .leftext .icons::after {
+    content: "";
+    width: 47%;
+    height: 5px;
+    position: absolute;
+    background: #754ef9;
+    left: -50%;
+    top: calc(50% - 5px);
+}
+#main .leftext h4{
+    font-size: 60px;
+    font-weight: bold;
+}
+#main .leftext p{
+    color: gray;
+    margin-top: 3%;
+}
+#main .maindiv .btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#main .maindiv .btn{
+    margin-top: 3%;
+}
+#main .maindiv .mainimg{
+    margin-top: 11%;
+    position: relative;
+}
+#main .maindiv .mainimg{
+   
+}
+#main .maindiv .mainimg::before{
+    position: absolute;
+    content: '';
+    width: 82%;
+    height: 82%;
+    border: 20px solid #754ef9;
+    border-bottom: 0;
+    top: 8%;
+    left: 0;
+    z-index: -1;
+}
+
+#main .maindiv .mainimg::after{
+    position: absolute;
+    content: '';
+    width: 82%;
+    height: 82%;
+    border-bottom: 20px solid #754ef9;
+    top: 8%;
+    left: 0;
+    z-index: 1;
+}
+
+#aboutme .text {
+    text-align: center;
+    margin-top: 7%;
+}
+
+#aboutme .text h5 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #000;
+}
+
+#aboutme .text p {
+    text-align: center;
+    font-weight: 400;
+    line-height: 28px;
+    color: #8a8fa3;
+    max-width: 64%;
+    margin: 0 auto;
+}
+#aboutme .icontext {
+    margin-top: 15%;
+}
+#aboutme .icontext h6{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#aboutme .icontext p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #8a8fa3;
+}
+#aboutme .icontext2 i{
+    color: #754ef9;
+}
+
+#aboutme .icontext2{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+#aboutme .statistic{
+    margin-top: 15%;
+ }
+#aboutme .statistic .statistic-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+#aboutme .statistic .percent-info {
+    width: 100%;
+    height: 5px;
+    position: relative;
+    background: gray;
+    margin-top: 3%;
+    border-radius: 5px;
+}
+
+#aboutme .statistic .percent-info .percent {
+    top: 0;
+    width: 85%;
+    height: 5px;
+    position: absolute;
+    background: #754ef9;
+    border-radius: 5px;
+}
+
